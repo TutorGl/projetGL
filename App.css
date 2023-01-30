@@ -1,0 +1,261 @@
+@import url('https://fonts.googleapis.com/css2?family=Jaldi&display=swap');
+
+.Navbar {
+  width:100vw;
+  height: 80px;
+  font:jaldi;
+  display: flex;
+ background-color: white;
+ position: fixed;
+  
+  justify-content: space-evenly;
+  align-items: center;
+ 
+
+}
+
+button:hover {
+  cursor: pointer;
+}
+
+.Navbar .links a{
+  text-decoration: none;
+  color: black;
+  font-size: 15px;
+  margin-left:20px;
+}
+.Navbar  #home {
+font-family: 'Jaldi';
+font-style: normal;
+font-weight: bold;
+font-size: 18px;
+color: rgba(70, 143, 73, 0.97);
+border-style: 2px solid;
+border-color: #468F49;
+
+
+box-sizing: border-box;
+background: #FFFFFF;
+border: 3px solid rgba(70, 143, 73, 0.97);
+border-radius: 25px;
+padding-left: 10px;
+padding-right:10px;
+padding-top: 5px;
+padding-bottom: 5px;
+  
+}
+
+.Navbar  .links{
+  max-height: 80px;
+}
+
+.Navbar  input {
+box-sizing: border-box;
+width: 400px;
+height: 36px;
+background: rgba(217, 217, 217, 0.32);
+border: 3px solid rgba(0, 0, 0, 0.32);
+border-radius: 10px;
+padding-left: 20px;
+}
+
+.Navbar  button{
+  height: 34px;
+  width: 70px;
+  border-radius: 10px;
+  border: none;
+  font: jaldi;
+  font-size:  16px;
+  background-color:#468F49;
+  color: white;
+  margin-left: 2px;
+}
+
+.Navbar .logo {
+ 
+  height: 80px;
+}
+
+.Image {
+  width : 100vw;
+  height: 677px;
+  margin: 0px;
+}
+
+.Annonce{
+  width: 94vw;
+  padding-top: 30px;
+  padding-right: 40px;
+  padding-left: 40px;
+  padding-bottom: 20px;
+  background-color: #EEECEC;
+  margin-top: 0px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.Annonce .element {
+
+
+height: 437px;
+
+background: #D9D9D9;
+border-radius: 37px;
+width: 23%;
+  box-sizing: border-box;
+margin:0.5%;
+}
+
+.Annonce .element .annonceImg {
+width: 100%;
+height: 248px;
+border-radius: 37px 37px 0px 0px;
+
+}
+
+.Annonce .titre {
+ 
+font-family: 'Jaldi';
+font-style: normal;
+font-size: 25px;
+color: #000000;
+font-weight: bold;
+margin-top:10px;
+margin-left: 20px;
+}
+
+.Annonce .element .lieu {
+  display : flex;
+  justify-content: flex-start;
+  align-items: center;
+  position: relative;
+  top: -100px;
+  left: 30px;
+  
+}
+.Annonce .element .heure {
+  display : flex;
+  justify-content: flex-start;
+  align-items: center;
+  position: relative;
+  top: -180px;
+  left: 30px;
+  
+}
+
+.Annonce .element .heure img {
+  height : 20px;
+  width:20px;
+  margin-left: 10px;
+  margin-right : 5px;
+  margin-top: 10 px;
+}
+
+.Annonce .element .lieu img {
+  height : 23px;
+  width:20px;
+  margin-left: 10px;
+  margin-right : 5px;
+  margin-top: 10 px;
+}
+
+.Annonce .element .lieu .text {
+
+font-family: 'Jaldi';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 36px;
+
+color: black;
+
+
+
+}
+.Annonce .element .heure .text {
+
+  font-family: 'Jaldi';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 36px;
+  
+  color: black;
+  
+  }
+
+  .Annonce .element .favori {
+    position: relative;
+    float: right;
+    bottom : 210px;
+    margin-right : 10px;
+  }
+
+  .Annonce .element .favori img {
+    margin-right:10px;
+  }
+
+
+  .Footer {
+    height: 400px;
+    width: 100vw;
+    background-color: white;
+    display: flex;
+    justify-content: space-around;
+    padding-top: 30px;;
+  }
+  .Footer .logo1 {
+    height: 120px;
+    width: 200px;
+  }
+
+  .Footer .P{
+    margin-top:20px;
+    width: 300px;
+    font-size: 25px;
+  }
+  .Footer .linksFooter{
+    margin-top:30px;
+  }
+  .Footer .linksFooter a{
+    text-decoration: none;
+    color: black;
+    font-size: 23px;
+    margin-top:10px;
+   
+  }
+  .Footer .linksFooter a:hover{
+    text-decoration: none;
+    color: hsl(122, 34%, 42%);
+    font-size: 25px;
+    margin-top:90px;
+    font-weight: bold;
+  }
+ 
+
+  .Footer .social .socialElement {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 5px;
+  }
+  .socialImg {
+    width: 20px;
+    height: 20px;
+  }
+  .Footer .social .socialElement p{
+    position: relative;
+    bottom: 17px;
+    left: 5px;
+  }
+  .Footer .arrow {
+    height:30px;
+    width:30px;
+    margin-top: 9%;
+  }
+  .Footer #a {
+    height:30px;
+    width:30px;
+    margin-top: 9%;
+  }
+   
+  
